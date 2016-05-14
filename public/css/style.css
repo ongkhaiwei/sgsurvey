@@ -1,0 +1,22 @@
+/* centered columnns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.col-max {
+    /* custom max width */
+    max-width: 25em
+}
+
+.top-buffer {
+    margin-top: 1em;
+}

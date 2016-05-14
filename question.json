@@ -1,0 +1,27 @@
+{
+    "id": "1",
+    "title": "WORKSHOP_TITLE",
+    "subtitle": "We appreciate your feedback about this workshop:",
+    "choices": [
+        {
+            "id": "1",
+            "name": "I love Bluemix !",
+            "votes": 0
+        },
+        {
+            "id": "2",
+            "name": "Interesting & Exciting !",
+            "votes": 0
+        },
+        {
+            "id": "3",
+            "name": "Go home & think about it.",
+            "votes": 0
+        },
+        {
+            "id": "4",
+            "name": "I am bored !",
+            "votes": 0
+        }
+    ]
+}

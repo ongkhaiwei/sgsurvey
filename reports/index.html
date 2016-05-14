@@ -1,0 +1,70 @@
+<!--
+ surveys (Simple online surveys application)
+ 
+ Copyright 2015 IBM Corp. All Rights Reserved
+ 
+ Author: Andrea Gagliardi La Gala
+ Email: andrea@sg.ibm.com
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="surveys">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title>Surveys Stats - Powered by IBM Bluemix</title>
+        <link rel="shortcut icon" href="assets/ico/favicon.ico" />
+        
+        <!-- Boostrap core CSS -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css" />
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"  />
+        
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- Socket.io and charting scipts -->
+        <script src="lib/jquery/js/jquery-1.11.1.min.js"></script>
+        <script src="lib/socket.io/js/socket.io.js"></script>
+        <script src="lib/highcharts/js/highcharts.js"></script>
+        
+        <!-- AngularJS scripts -->
+        <script src="lib/angularjs/js/angular.min.js"></script>
+        <script src="lib/angularjs/js/angular-ui-router.min.js"></script>
+        <script src="lib/angularjs/js/angular-resource.min.js"></script>
+
+        <!-- App's specific js -->
+        <script src="js/app.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/directives.js"></script>
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <ui-view />
+    </body>
+    
+</html>
