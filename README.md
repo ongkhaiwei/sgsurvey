@@ -2,6 +2,8 @@
 
 This is a simple online survey application, based on Nodejs. Special thanks to my friend Andrea, who contributed the source codes.
 
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ongkhaiwei/sgsurvey # [required])
+
 
 # How to access application
 
